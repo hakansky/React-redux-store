@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hakansky/React-redux-store/static/css/main.dfa4d694.css",
+    "main.js": "/hakansky/React-redux-store/static/js/main.f58646dc.js",
+    "static/media/introbackground.png": "/hakansky/React-redux-store/static/media/introbackground.0aa2982fcac98e399dfb.png",
+    "static/media/about-us.png": "/hakansky/React-redux-store/static/media/about-us.0bf8ab3a769b2cb7f08a.png",
+    "static/media/Preloader.svg": "/hakansky/React-redux-store/static/media/Preloader.970d646577e065bfe9ed91fa42b7bce8.svg",
+    "index.html": "/hakansky/React-redux-store/index.html",
+    "main.dfa4d694.css.map": "/hakansky/React-redux-store/static/css/main.dfa4d694.css.map",
+    "main.f58646dc.js.map": "/hakansky/React-redux-store/static/js/main.f58646dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfa4d694.css",
+    "static/js/main.f58646dc.js"
+  ]
+}
