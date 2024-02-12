@@ -1,0 +1,37 @@
+.LatestOffers {
+    text-align: center;
+}
+
+.LatestOffers h1 {
+    font-size: 50px;
+    padding: 30px;
+    letter-spacing: 5px;
+}
+
+.LatestOffers span {
+    color: #FF8126;
+}
+
+.LatestOffers .Offers {
+    display: flex;
+    align-items: center;
+}
+
+.LatestOffers button {
+    background-color: white;
+    margin-top: 50px;
+    color: #FF8126;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    border: 1px solid #FF8126;
+    width: 30%;
+    transition: 0.5s;
+    letter-spacing: 4px;
+}
+
+.LatestOffers button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #FF8126;
+}

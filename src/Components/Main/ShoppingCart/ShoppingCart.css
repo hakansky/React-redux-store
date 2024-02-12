@@ -1,0 +1,65 @@
+.ShoppingCart {
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.ShoppingCart h1 {
+    padding: 10px 20px;
+    font-size: 30px;
+    margin: 50px 0 20px 0;
+    background-color: #FF8126;
+    color: white;
+    border-radius: 20px;
+}
+
+.ShoppingCart #TotalPrice {
+    font-size: 40px;
+}
+
+.ShoppingCart .ProductsInCartMapping {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ShoppingCart .InputsToOrder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ShoppingCart .InputsToOrder form {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ShoppingCart .InputsToOrder input {
+    background-color: white;
+    border: 1px solid #FF8126;
+    border-radius: 20px;
+    padding: 10px;
+    width: 40%;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.ShoppingCart .InputsToOrder #OrderButton {
+    background-color: #FF8126;
+    color: white;
+    width: 30%;
+    transition: 0.5s;
+}
+
+.ShoppingCart .InputsToOrder #OrderButton:hover {
+    cursor: pointer;
+    transform: scale(105%);
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

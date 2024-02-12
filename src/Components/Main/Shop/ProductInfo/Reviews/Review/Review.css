@@ -1,0 +1,29 @@
+.Review {
+    border: 1px solid #FF8126;
+    padding: 20px;
+    margin: 10px auto;
+    width: 96%;
+    word-wrap: break-word;
+    border-radius: 20px;
+}
+
+.Review h3, h5 {
+    margin: 0;
+}
+
+.Review img {
+    width: 12px;
+    position: relative;
+    left: 430px;
+    transition: 0.5s;
+    opacity: 0.3;
+}
+
+.Review img:hover {
+    scale: 130%;
+    cursor: pointer;
+}
+
+.Review img.active {
+    opacity: 100%;
+}

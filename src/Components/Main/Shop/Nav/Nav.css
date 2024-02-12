@@ -1,0 +1,42 @@
+.Nav {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: 1px solid #FF8126;
+    border-radius: 10px;
+    margin: 0 30px 0 0;
+}
+
+.Nav h3 {
+    background-color: #FF8126;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 30px 0 0;
+    font-size: 25px;
+    letter-spacing: 4px;
+}
+
+
+
+.Nav a {
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 10px 30px 0 0;
+    color: #FF8126;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 16px;
+    letter-spacing: 4px;
+}
+.Nav a:hover {
+    background-color: #FF8126;
+    color: white;
+}
+.Nav .LinksNav:focus {
+    background-color: #FF8126;
+    color: white;
+}

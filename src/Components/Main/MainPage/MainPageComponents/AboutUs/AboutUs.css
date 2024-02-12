@@ -1,0 +1,43 @@
+.AboutUs {
+    text-align: center;
+}
+
+.AboutUs h1 {
+    font-size: 40px;
+    padding: 30px;
+    letter-spacing: 5px;
+}
+
+.AboutUs .about-us {
+    padding: 0 100px 100px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.AboutUs .text {
+    width: 40%;
+    font-size: 22px;
+    padding: 50px;
+    border: 1px dotted #FF8126;
+}
+
+.AboutUs button {
+    background-color: #FF8126;
+    color: white;
+    border: none;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 50px;
+    transition: 0.5s;
+    letter-spacing: 4px;
+}
+
+.AboutUs button:hover {
+    cursor: pointer;
+    transform: scale(110%);
+}
+
+.AboutUs img {
+    height: 30em;
+}

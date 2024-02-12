@@ -1,0 +1,6 @@
+.Shop {
+    display: flex;
+    padding: 0 30px 30px 30px;
+    height: 90vh;
+    box-sizing: border-box;
+}

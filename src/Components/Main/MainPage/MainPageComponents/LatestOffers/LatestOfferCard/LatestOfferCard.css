@@ -1,0 +1,36 @@
+.LatestOfferCard {
+    width: 20%;
+    height: 400px;
+    padding: 20px;
+}
+
+.LatestOfferCard:nth-child(2n) {
+    border-left: 1px solid #FF8126;
+    border-right: 1px solid #FF8126;
+}
+
+.LatestOfferCard .OfferImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.LatestOfferCard h2 {
+    height: 100px;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.LatestOfferCard img {
+    width: 50%;
+}
+
+.LatestOfferCard h1 {
+    padding: 10px;
+    color: #FF8126;
+    border-radius: 50px;
+    font-size: 30px;
+    margin: 0;
+}

@@ -1,0 +1,28 @@
+.Footer {
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px dotted #FF8126;
+    color: grey;
+    padding: 50px;
+    align-items: center;
+    letter-spacing: 4px;
+}
+
+.Footer img {
+    height: 150px;
+}
+
+.Footer iframe {
+    border: none;
+    width: 30%;
+    height: 200px;
+}
+
+.Footer p, .Footer .footer-info p:hover {
+    cursor: pointer;
+}
+
+.Footer a {
+    text-decoration: none;
+    color: grey;
+}

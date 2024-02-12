@@ -1,0 +1,17 @@
+.Rating {
+    display: flex;
+    align-items: center;
+    letter-spacing: 4px;
+}
+
+.Rating #rating, .Rating span {
+    font-size: 20px;
+}
+
+.Rating #full-star {
+    color: #FF8126;
+}
+
+.Rating span {
+    margin: 0 0 0 5px;
+}

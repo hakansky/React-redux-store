@@ -1,0 +1,83 @@
+.ProductInCart {
+    display: flex;
+    align-items: center;
+    border: 1px solid #FF8126;
+    width: 60%;
+    padding: 30px 50px;
+    margin: 5px 0;
+    justify-content: space-around;
+}
+
+.ProductInCart img {
+    width: 20%;
+    margin-right: 100px;
+}
+
+.ProductInCart h2 {
+    font-size: 20px;
+    max-width: 400px;
+}
+
+.ProductInCart p {
+    background-color: #FF8126;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.ProductInCart .PriceCounterRemove {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ProductInCart h3 {
+    background-color: white;
+    border: 1px solid #FF8126;
+    border-radius: 20px;
+    color: #FF8126;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.ProductInCart .CountRemove {
+    display: flex;
+    align-items: center;
+}
+
+.ProductInCart button {
+    background-color: white;
+    color: #FF8126;
+    border: 1px solid #FF8126;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 16px;
+    margin: auto 10px;
+    transition: 0.5s;
+}
+
+.ProductInCart button:hover {
+    background-color: #FF8126;
+    color: white;
+    cursor: pointer;
+}
+
+.ProductInCart .Quantity {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ProductInCart .Quantity .IncrementDecrement {
+    display: flex;
+}
+
+.ProductInCart .Quantity .IncrementDecrement p {
+    text-align: center;
+    margin: 0 0 0 5px;
+}
+
+.ProductInCart .Quantity .IncrementDecrement p:hover {
+    cursor: pointer;
+}

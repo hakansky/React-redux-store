@@ -1,0 +1,36 @@
+.Intro {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 10%;
+    background-color: #e8f7ff;
+    background-image: url("../../../../../assets/img/introbackground.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.Intro h1 {
+    font-size: 50px;
+    letter-spacing: 7px;
+}
+
+.Intro h3 {
+    font-size: 20px;
+    letter-spacing: 7px;
+}
+
+.Intro h2 {
+    font-size: 40px;
+    align-self: start;
+    background-color: #FF8126;
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+    transition: 0.5s;
+    letter-spacing: 4px;
+}
+
+.Intro h2:hover {
+    cursor: pointer;
+    transform: scale(105%);
+}

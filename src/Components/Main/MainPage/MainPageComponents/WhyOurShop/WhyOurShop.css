@@ -1,0 +1,23 @@
+.WhyOurShop {
+    text-align: center;
+}
+
+.WhyOurShop h1 {
+    font-size: 40px;
+    padding: 30px;
+    letter-spacing: 5px;
+}
+
+.WhyOurShop .Container {
+    display: flex;
+    margin: 0 100px;
+}
+
+.WhyOurShop .Container div {
+    padding: 40px;
+}
+
+.WhyOurShop .Container div:nth-child(2n) {
+    border-left: 1px dotted #FF8126;
+    border-right: 1px dotted #FF8126;
+}
