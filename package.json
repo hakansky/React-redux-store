@@ -1,7 +1,7 @@
 {
   "name": "react-redux-store",
   "version": "0.1.0",
-  "homepage": "https://github.com/hakansky/React-redux-store",
+  "homepage": "https://hakansky.github.io/React-redux-store",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.1.0",
