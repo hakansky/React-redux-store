@@ -38,8 +38,8 @@ const Header = () => {
             <div className='NavLinks'>
                 <Link to='/'>Main</Link>
                 <Link to='/shop'>Shop</Link>
-                <Link to='/#about-us' onClick={scrollToAboutUs}>About us</Link>
-                <Link to='/#contacts' onClick={scrollToContacts}>Contacts</Link>
+                <a href='/React-redux-store/#' onClick={scrollToAboutUs}>About us</a>
+                <a href='/React-redux-store/#' onClick={scrollToContacts}>Contacts</a>
             </div>
             <img src={cart} onClick={NavigateToShoppingCart} alt="img" id='cart'/>
             {
